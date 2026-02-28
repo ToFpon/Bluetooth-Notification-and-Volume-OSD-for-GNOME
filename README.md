@@ -1,23 +1,23 @@
-# 🎧 Bluetooth Notification and volume OSD for GNOME
+# 🎧 Bluetooth Notification and Volume OSD for GNOME
 
-Un script Bash léger qui apporte une intégration "Premium" pour vos périphériques Bluetooth sous GNOME. 
+A lightweight Bash script that provides "Premium" integration for your Bluetooth devices under GNOME. 
 
-Il surveille les connexions/déconnexions et affiche un **OSD (On-Screen Display)** dynamique avec le nom et l'icône réelle de votre appareil lors du changement de volume.
+It monitors connections/disconnections and displays a dynamic **OSD (On-Screen Display)** with the name and actual icon of your device when changing volume.
 
-## ✨ Fonctionnalités
-- **Notifications natives** : Affiche une notification lors de la connexion/déconnexion (avec icône de l'appareil).
-- **OSD Dynamique** : Affiche une barre de volume personnalisée (Nom + Icône + Niveau).
-- **Intelligent** : L'OSD ne s'active *que* si un appareil Bluetooth est connecté (évite les doublons avec le son système).
-- **Service Utilisateur** : Géré par `systemd`, se lance automatiquement à l'ouverture de session.
+## ✨ Features
+- **Native notifications**: Shows notification when connecting/disconnecting (with device icon).
+- **Dynamic OSD**: Displays a custom volume bar (Name + Icon + Level).
+- **Smart**: OSD only activates if a Bluetooth device is connected (avoids duplication with system sound).
+- **User Service**: Managed by `systemd`, launches automatically upon login.
 
-## 🛠 Prérequis
+## 🛠 Prerequisites
 - **GNOME Shell**
-- **Extension Custom-OSD** : [neuromorph/custom-osd](https://github.com/neuromorph/custom-osd) (indispensable pour l'affichage visuel).
-- **Dépendances** : `pactl` (PulseAudio/Pipewire), `bluetoothctl`, `bc`.
+- **Custom-OSD extension**: [neuromorph/custom-osd](https://github.com/neuromorph/custom-osd) (essential for visual display).
+- **Dependencies**: `pactl` (PulseAudio/Pipewire), `bluetoothctl`, `bc`.
 
-## 🚀 Installation rapide
+## 🚀 Quick installation
 
-1. Clonez le dépôt :
+1. Clone the repository:
    ```bash
    git clone [https://github.com/ToFpon/bt-osd.git](https://github.com/ToFpon/bt-osd.git)
    cd bt-osd
@@ -26,3 +26,4 @@ Il surveille les connexions/déconnexions et affiche un **OSD (On-Screen Display
    ```bash
    chmod +x install.sh
    ./install.sh
+
