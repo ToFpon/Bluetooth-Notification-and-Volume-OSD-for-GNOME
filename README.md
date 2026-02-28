@@ -24,5 +24,5 @@ Il surveille les connexions/déconnexions et affiche un **OSD (On-Screen Display
    
 2. Lancez l'installateur :
   ```bash
-chmod +x install.sh
-./install.sh
+  chmod +x install.sh
+  ./install.sh
