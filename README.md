@@ -15,7 +15,7 @@ It monitors connections/disconnections and displays a dynamic **OSD (On-Screen D
 - **Custom-OSD extension**: [neuromorph/custom-osd](https://github.com/neuromorph/custom-osd) (essential for visual display).
 - **Dependencies**: 
    ```bash
-    sudo apt install pulseaudio-utils bluetoothctl bc
+   sudo apt install pulseaudio-utils bluetoothctl bc
 ## 🚀 Quick installation
 
 1. Clone the repository:
