@@ -42,7 +42,7 @@ rm -f "$BT_NAME_FILE" "$BT_ICON_FILE" 2>/dev/null
 
 # --- 2. SURVEILLANCE BLUETOOTH (Lola) ---
 LAST_STATE=""
-echo "Lola surveille tes périphériques... (Même les parapluies !)"
+echo "Bluetooth monitoring..."
 
 while true; do
     current_list=$(bluetoothctl devices Connected 2>/dev/null | sed -re 's/^Device ([^ ]+) (.*)$/\1|\2/')
